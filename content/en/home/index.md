@@ -1,6 +1,6 @@
 ---
-title: "Hi, I'm Introduction"
+title: "Get a rubber duck"
 headless: true
 ---
 
-I'm a theme for Hugo.
+And stop breaking instead of building
