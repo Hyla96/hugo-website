@@ -3,4 +3,6 @@ title: "Get a rubber duck"
 headless: true
 ---
 
-And stop breaking instead of building
+Gabriel Costache - Building software for the web
+
+This website is in progress, eventually you'll find some of my projects here.
