@@ -4,14 +4,16 @@ image: "profile.jpg"
 weight: 8
 ---
 
-This is **Introduction**, a minimalist website theme made for [Hugo](https://gohugo.io).
+I develop and design software. I'm currently working at [iATROS GmbH](https://www.i-atros.com) as a mobile engineer.
 
-### Features
+[//]: # (&#40;I'm also in the process of getting the [Google Developer Expert]&#40;https://developers.google.com/community/experts/&#41; status for Flutter.&#41;)
 
-* Responsive display on any size screen
-* Light and Dark themes right out of the box
-* Multilingual - supports side-by-side content in multiple languages
-* Any number of custom index page sections from Markdown files
-* _Projects_ section with any number of projects: highly configurable as a photo gallery, modals, or external links
-* _Blog_ section with optional _Latest Post_, on the main page or as a separate section
-* Styled Markdown throughout with support for Hugo's syntax highlighting
+### About me
+
+* Born in [Adjud (RO)](https://goo.gl/maps/cQLbFaq644e5TrCc6) and raised in [Conegliano (IT)](https://goo.gl/maps/a2EtYnj3MXrAY1tV7), you might know our [Prosecco](https://en.wikipedia.org/wiki/Prosecco)
+* Italian, Romanian and English speaker
+* Coding mostly in [Dart](https://dart.dev/) and [GoLang](https://go.dev/)
+* Currently working on a variety of projects, from mobile apps to IoT devices and knowledge sharing
+* [gRPC](https://grpc.io/) and [Flutter](https://flutter.dev/) fanboy
+* I like Dark themes
+* In another life I would have been a cook
