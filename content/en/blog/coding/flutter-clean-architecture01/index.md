@@ -3,10 +3,10 @@ author:
     - Gabriel
 cover: "cover.jpg"
 date: 2022-09-13T02:04:06-05:00
-series: ["flutter clean architecture"]
+series: ["Flutter Clean Architecture"]
 subtitle: "Mastering Flutter with Patterns [00]"
-tags: ["code", "features"]
-title: "Introduction to Flutter Clean Architecture"
+tags: ["Flutter", "Clean Architecture", "Design patterns"]
+title: "Introduction to Clean Architecture in Flutter"
 ---
 
 Here are some helpful tips for setting up this theme.
