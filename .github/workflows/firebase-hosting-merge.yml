@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: mkdir $HOME/src |
+      - run: |
+          mkdir $HOME/src
           cd $HOME/src
           git clone https://github.com/gohugoio/hugo.git
           cd hugo
