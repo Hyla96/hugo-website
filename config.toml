@@ -110,7 +110,7 @@ googleAnalytics                 = "G-VDCW6YBNT1"                     # https://g
         languageCode     = "en-us"
         contentDir       = "content/en"
         weight           = 0
-        title            = "Gabriel - Engineering Software"
+        title            = "Rubber Duck"
         [languages.en.params]
             description  = "Gabriel's personal website"   # Max 160 characters show in search results
             footerText   = "Copyright &copy; 2022 Costache.dev. All Rights Reserved | See a bug? Open an issue [here](https://github.com/Hyla96/hugo-website/) "  # Text to override default footer text (markdown allowed)
