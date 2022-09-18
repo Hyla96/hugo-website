@@ -133,3 +133,6 @@ Everytime you push in your branch `master`, from now on, GitHub will automatical
 In this article we saw how to deploy our Dart Frog web service on Heroku with GitHub actions: the process overall is quite simple, far away from being rocket science.
 It can be easily adapted to other projects and you can use it to deploy any app, but you'll have to modify a little the Dockerfile.
 
+Feel free to fork, contribute or reach out: https://github.com/Hyla96/heroku_dart_frog
+
+DEMO: https://dart-frog-deployment-example.herokuapp.com/
