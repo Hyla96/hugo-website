@@ -12,13 +12,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-          mkdir $HOME/src
-          cd $HOME/src
-          git clone https://github.com/gohugoio/hugo.git
-          cd hugo
-          go install --tags extended
-          cd ..
-          cd ..
+          sudo apt update
+          sudo apt-get install build-essential
+          sudo apt install git -y
+          /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+          eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+          brew install hugo
           hugo --gc --minify
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
