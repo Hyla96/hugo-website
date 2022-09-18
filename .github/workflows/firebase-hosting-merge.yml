@@ -6,11 +6,11 @@ name: Deploy to Firebase Hosting on merge
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2
-
-      - uses: wajahatkarim3/Hugo-On-Fire@master
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-
+      - uses: actions/checkout@v1
+        with:
+          submodules: true
+      - uses: ryank90/action-hugo-firebase-deploy@master
+        with:
+          firebase-token: ${{ secrets.FIREBASE_TOKEN }}
+          hugo-params: -D --minify
